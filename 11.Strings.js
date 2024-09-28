@@ -18,4 +18,4 @@ console.log(anothername.length);
 //.slice
 //.substring
 //.indexOf
-//.split//it covert strings in arrays based on giveb char
+//.split//it covert strings in arrays based on given char

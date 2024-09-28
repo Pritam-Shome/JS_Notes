@@ -23,7 +23,7 @@ const JsUser = {
  //console.log(JsUser[mySym])
 
 JsUser.email = "hitesh@chatgpt.com"
- Object.freeze(JsUser)//noone can change the value 
+// Object.freeze(JsUser)//noone can change the value //and also nonone can add anything in the object
 //console.log(JsUser.email);
 
 JsUser.email = "hitesh@microsoft.com"// not change because of freeze
@@ -39,5 +39,5 @@ JsUser.greetingTwo = function(){
     console.log(`Hello JS user, ${this.name}`);
 }
 
-//console.log(JsUser.greeting());
-//console.log(JsUser.greetingTwo());
+console.log(JsUser.greeting());
+console.log(JsUser.greetingTwo());

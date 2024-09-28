@@ -22,8 +22,8 @@
 let myTimeStamp = Date.now()
 
 // console.log(myTimeStamp);//it give large int value as a time of the present time
-// console.log(myCreatedDate.getTime());//it give large int value as a time of the given time
-// console.log(Math.floor(Date.now()/1000));//it give large int value as a time of the present time in seconds
+ //console.log(myCreatedDate.getTime());//it give large int value as a time of the given time
+ //console.log(Math.floor(Date.now()/1000));//it give large int value as a time of the present time in seconds
 
 
 

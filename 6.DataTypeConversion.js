@@ -42,10 +42,10 @@ undefined=>NaN
 
 
 //----------  --------
-// let check="pritam"
+ let check="pritam"
 
-// let booleanCheck=Boolean(check)
-// console.log(booleanCheck);
+ let booleanCheck=Boolean(check)
+ console.log(booleanCheck);
 
 //1=> true    0=> false
 //""=>false   "Pritam"=>true
@@ -55,7 +55,7 @@ undefined=>NaN
 
 
 // -------------------------------
-let Number = 33
-let stringNumber = String (Number);
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// let Number = 33
+// let stringNumber = String (Number);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);

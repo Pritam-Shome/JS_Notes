@@ -33,7 +33,7 @@ const obj4 = {5: "a", 6: "b"}
 
 //const obj3 = {...obj1, ...obj2}////{ '1': 'a', '2': 'b', '3': 'a', '4': 'b' }
 const obj3 = {...obj1, ...obj2,...obj4}
-// console.log(obj3);
+//console.log(obj3);
 
 
 
@@ -54,18 +54,21 @@ const user =[   ///array of object
 ]
 
 //console.log(user[1].email);
+//console.log(user);
 
 
 
 //aagain come to tinder user
 
- console.log(tinderUser);
+ console.log(tinderUser);//{ id: '123abc', name: 'Sammy', isLoggedIn: false }
 
- //console.log(Object.keys(tinderUser));
- //console.log(Object.values(tinderUser));
+ //console.log(Object.keys(tinderUser));//output--> [ 'id', 'name', 'isLoggedIn' ]
+
+ //console.log(Object.values(tinderUser));///[ '123abc', 'Sammy', false ]
+
  //console.log(Object.entries(tinderUser));//[key,values] as a array
 
- console.log(tinderUser.hasOwnProperty('isLoggedIn'));// it return boolean value//that the given is a key or not
+ //console.log(tinderUser.hasOwnProperty('isLoggedIn'));// it return boolean value//that the given is a key or not
 
 
 

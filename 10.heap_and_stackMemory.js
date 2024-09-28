@@ -17,8 +17,13 @@ let userOne={
 
 let userTwo = userOne;
 
-userTwo.email="pritamshome2@gmail.com"
+userTwo.email="pritamshome2@gmail(changed).com"
 
 console.log(userOne.email);
 console.log(userTwo.email);
-
+// if anything in object change then all other objct associated with it also change
+// The interesting part here is that both
+// userOne and userTwo point to the same object in memory.
+// When you modify the email property of userTwo, it also affects userOne
+// because they reference the same object. 
+// So, both email addresses will be updated to the changed value.
