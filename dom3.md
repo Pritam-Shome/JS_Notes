@@ -10,8 +10,7 @@
  ```
  In this example, tagName returns "DIV" because the element is a <div> tag.
 
- ```
- ```
+ 
 2. innerText
 
 ```js
@@ -24,8 +23,7 @@
  ```
  Here, innerText returns "Hello World" because the span containing "Hidden" is set to display:none, making it invisible.
 
- ```
- ```
+ 
 
  3. innerHTML
 
@@ -43,8 +41,7 @@
  The first log shows "Hello <b>World</b>" since it includes the HTML tags.
 After setting a new value for innerHTML, the content changes to "New <i>Content</i>".
 
-```
-```
+
 
 4. textContent
 
